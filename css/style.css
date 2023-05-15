@@ -98,7 +98,7 @@ input:focus {
 
 .nav-item {
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 .nav-item:last-child {
@@ -314,6 +314,13 @@ input:focus {
     display: block;
   }
 
+  .decoration-block {
+    display: none;
+  }
+
+  .header-wrapper {
+    justify-content: center;
+  }
   .about {
     max-width: none;
     margin-bottom: 20px;
