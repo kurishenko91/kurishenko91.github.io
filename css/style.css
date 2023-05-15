@@ -6,10 +6,12 @@
   --grey: #c5c4c441;
   --white: #fff;
   --blue: #0077b5;
+  --light-blue: #2698d6;
 
   --text-color: var(--black);
   --dark-bg: var(--grey);
   --accent: var(--blue);
+  --link: var(--light-blue);
 }
 
 html,
@@ -242,7 +244,7 @@ input:focus {
 
 .link {
   font-weight: 700;
-  color:var(--black);
+  color:var(--link);
   display: inline-block;
 }
 
