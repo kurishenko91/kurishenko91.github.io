@@ -323,6 +323,14 @@ input:focus {
   .header-wrapper {
     justify-content: center;
   }
+
+  .nav-link {
+    border: none;
+    mask: none;
+  -webkit-mask: none;
+  transition: none;
+  }
+
   .about {
     max-width: none;
     margin-bottom: 20px;
